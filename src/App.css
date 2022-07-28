@@ -1,3 +1,9 @@
+body{
+  font-family: 'Bakbak One', cursive !important;
+    font-family: 'Grand Hotel', cursive !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -13,20 +19,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +28,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.logo{
+ text-align: center;
+}
+.logo img{
+  width: 50%;
+ 
+}
+
+.info{
+  text-align: center;
+   margin: 20px;
+   width: auto;
+   
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:large;
+  color: white;
+ 
+}
+.info p{
+  text-align: center;
+}
+.btn{
+  text-align: center;
+  
+ 
 }
