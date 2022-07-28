@@ -11,6 +11,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Container from '@mui/material/Container';
+import CircularProgress from '@mui/material/CircularProgress';
+import Box from '@mui/material/Box';
 const Statistic = () => {
 
 
@@ -40,16 +42,18 @@ const Statistic = () => {
 
     const [row, setrow] = useState([])
 
-
+    const [loader, setloader] = useState(false)
     useEffect(() => {
 
-
+        setloader(true)
         axios.get("https://placement-project-backend.vercel.app/getalldata").then((res) => {
             setrow(res.data)
             console.log(res.data)
+            setloader(false)
 
         }).catch((res) => {
             console.log(res)
+            setloader(false)
         })
     }, [0]);
     const rows = [
@@ -74,11 +78,13 @@ const Statistic = () => {
     var v = [1718, 1819, 1920, 2021]
 
     return (
-        <div style={{backgroundColor:"rgba(0 ,42,87)" , fontFamily:"verdana"}}>
-            <Container maxWidth="lg" style={{fontFamily:"verdana"}}>
+        <div style={{ backgroundColor: "rgba(0 ,42,87)", fontFamily: "verdana" }}>
+            <Container maxWidth="lg" style={{ fontFamily: "verdana" }}>
+
                 <div style={{ backgroundColor: "rgba(0 ,42,87)" }}>
                     <TableContainer component={Paper}>
-                        <Table sx={{ minWidth: 700 }} stickyHeader aria-label="sticky table">
+                        <Table sx={{ minWidth: 700 }} stickyHeader x>
+
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Company</StyledTableCell>
@@ -90,6 +96,7 @@ const Statistic = () => {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
+
                                 {row.map((row) => (
                                     <StyledTableRow key={row.name}>
                                         <StyledTableCell component="th" scope="row">
@@ -126,6 +133,12 @@ const Statistic = () => {
                                 ))}
                             </TableBody>
                         </Table>
+                        {
+
+                            loader ? <Box className="my-5" sx={{ display: 'flex', justifyContent: "center" }}>
+                                <CircularProgress />
+                            </Box> : null
+                        }
                     </TableContainer>
                 </div>
             </Container>

@@ -67,23 +67,19 @@ const Home = () => {
 
                     <div class="container p-4 pb-0">
                         <section class="mb-4">
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                            ><i class="fab fa-facebook-f"></i></a>
+                           
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                            ><i class="fab fa-twitter"></i></a>
-
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            <a class="btn btn-outline-light btn-floating m-1" href="abhinavkudnar152@gmail.com" role="button"
                             ><i class="fab fa-google"></i></a>
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/abhinavkudnar/" role="button"
                             ><i class="fab fa-instagram"></i></a>
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/abhinav-kudnar-912a711b6/" role="button"
                             ><i class="fab fa-linkedin-in"></i></a>
 
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/abhi152" role="button"
                             ><i class="fab fa-github"></i></a>
                         </section>
                     </div>
