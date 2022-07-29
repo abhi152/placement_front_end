@@ -41,10 +41,8 @@ const Home = () => {
             <div className="info">
 
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iusto ullam eaque similique saepe voluptatibus, a itaque nesciunt ipsam quisquam porro minus deserunt? A quo, nemo beatae cum amet ratione.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iusto ullam eaque similique saepe voluptatibus, a itaque nesciunt ipsam quisquam porro minus deserunt? A quo, nemo beatae cum amet ratione
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iusto ullam eaque similique saepe voluptatibus, a itaque nesciunt ipsam quisquam porro minus deserunt? A quo, nemo beatae cum amet ratione
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iusto ullam eaque similique saepe voluptatibus, a itaque nesciunt ipsam quisquam porro minus deserunt? A quo, nemo beatae cum amet ratione
+                <p>
+                    Welcome to placement informer. This website is built with an intend to provide placement statistics of our College (PICT, Pune) from academic year 2017 to 2021.Data is Collected from official website and represented in easy-to-understand format so that upcoming batches would be able to its advantage. Companies are Sorted in descending order of salaries offered in these years with total number of students placed. Year in which ‘- ‘sign is used to indicted that company had not visited the campus for that particular year. ‘0’ is used to indicate that Company had visited the college but not given an offer. I hope this placement informer will help you to analyse the placement scenario of our college.
                 </p>
 
             </div>
@@ -69,7 +67,7 @@ const Home = () => {
                         <section class="mb-4">
                            
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="abhinavkudnar152@gmail.com" role="button"
+                            <a class="btn btn-outline-light btn-floating m-1" href="mailto:abhinavkudnar152@gmail.com" role="button"
                             ><i class="fab fa-google"></i></a>
 
                             <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/abhinavkudnar/" role="button"
@@ -85,7 +83,7 @@ const Home = () => {
                     </div>
                     <div class="text-center p-3" style={{backgroundColor:" rgba(0, 0, 0, 0.2)"}}>
                         © 2022 Copyright:
-                        <a class="text-white" >Abhinav Kudnar</a>
+                        <a class="text-white" href="https://abhinavkudnar.netlify.app/" >Abhinav Kudnar</a>
                     </div>
                 </footer>
             </div>
