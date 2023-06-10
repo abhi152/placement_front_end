@@ -34,6 +34,8 @@ const Home = () => {
 
     return (
         <div style={{ backgroundColor: "rgba(0 ,42,87)", width: "auto" }}>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4234937799883008"
+     crossorigin="anonymous"></script>
             <div className="logo">
                 <img className="" src={logo1} alt="" />
             </div>
